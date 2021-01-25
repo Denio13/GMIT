@@ -12,7 +12,7 @@ sudo apt-get install vim
 
 ### Python (WSL/Ubuntu with venv)
 
-Version: [Python 3.8.0]
+Version: **Python 3.8.0**
 
 Creation of virtual environments: https://docs.python.org/3.8/library/venv.html
 
