@@ -8,12 +8,14 @@
 
 3.  Using Python Virtual Environments on Windows Subsystem for Linux
     + Python version [python 3.8.0]
-              ``` 
+             
+             ``` 
               python --version
               
               ```
     + Download 
-              ``` 
+             
+             ``` 
                    sudo apt install python-pip
                    sudo pip install virtualenv
 
