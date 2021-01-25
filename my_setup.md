@@ -6,15 +6,14 @@ Download from Microsoft Store - Ubuntu 18.04 LTS.
 
 ###  Vim (WSL/Ubuntu)
 
-TODO
-
 ```sh
 sudo apt-get install vim
 ```
 
 ### Python (WSL/Ubuntu with venv)
 
-Version: [Python 3.8.0](https://docs.python.org/3/library/venv.html)
+Version: [Python 3.8.0]
+
 Creation of virtual environments: https://docs.python.org/3.8/library/venv.html
 
 ```sh
@@ -41,7 +40,7 @@ python --version
 
 ###  GitHub account
 
-- https://github.com/
+- https://github.com/Denio13/GMIT
 
 
 
