@@ -1,36 +1,48 @@
 ## Setup
 
-1.  Windows Subsystem for Linux (WSL) terminal
-    + Download from Microsoft Store - Ubuntu 18.04 LTS.
+###  Windows Subsystem for Linux (WSL) terminal
 
-2.  Notepad++ 
-    + Download from link https://notepad-plus-plus.org/
+Download from Microsoft Store - Ubuntu 18.04 LTS.
 
-3.  Using Python Virtual Environments on Windows Subsystem for Linux
-    + Python version [python 3.8.0]
-             
- ``` 
-              python --version
-              
- ```
-    + Download 
-             
-``` 
-                   sudo apt install python-pip
-                   sudo pip install virtualenv
+###  Vim (WSL/Ubuntu)
 
-                   mkdir ~/.storevirtualenvs
-                   virtualenv -p python3 yourVenv 
+TODO
 
-                   source yourVenv/bin/activate
-                  
+```sh
+sudo apt-get install vim
 ```
 
-4.  VS Code whit (WSL) terminal
-    + Download link https://code.visualstudio.com/download/
+### Python (WSL/Ubuntu with venv)
 
-5.  GitHub account
-    + Link https://github.com/
+Version: [Python 3.8.0](https://docs.python.org/3/library/venv.html)
+Creation of virtual environments: https://docs.python.org/3.8/library/venv.html
+
+```sh
+sudo apt install python3-pip
+python3 -m venv ~/.yourVenv
+source ~/yourVenv/bin/activate
+```
+
+Check version:
+
+```sh
+python --version
+```
+
+###  Visual studio code + Windows Terminal (Connect with WSL)
+
+#### VS Code
+
+- Download Visual studio code: https://code.visualstudio.com/download/
+
+#### Windows Terminal
+
+- Download Windows Terminal: https://docs.microsoft.com/en-us/windows/terminal/
+
+###  GitHub account
+
+- https://github.com/
+
 
 
 
