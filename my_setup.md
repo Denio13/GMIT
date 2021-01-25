@@ -15,7 +15,7 @@
               ```
     + Download 
              
-             ``` 
+``` 
                    sudo apt install python-pip
                    sudo pip install virtualenv
 
@@ -24,7 +24,7 @@
 
                    source yourVenv/bin/activate
                   
-                 ```
+```
 
 4.  VS Code whit (WSL) terminal
     + Download link https://code.visualstudio.com/download/
