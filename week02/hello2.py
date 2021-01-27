@@ -1,3 +1,4 @@
+# This program takes a name and prints it with the whole text
 name = input("Enter your name:")
 print('Hello '+ name + '\nNice to meet you.')
 
