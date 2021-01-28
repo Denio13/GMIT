@@ -1,4 +1,6 @@
 # This program takes a name and prints it with the whole text
+#Author: Denis Sarf
+
 name = input("Enter your name:")
 print('Hello '+ name + '\nNice to meet you.')
 
