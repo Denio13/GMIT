@@ -1,4 +1,4 @@
-# rounds a number
+# rounds a number,  it rounds to the nearest even number
 #Author: Denis Sarf
 
 
