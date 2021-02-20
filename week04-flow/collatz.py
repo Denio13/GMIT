@@ -18,8 +18,7 @@ numbers.append(int(number))
 while number != 1:
     if (number % 2) == 0:
         number = number / 2
-        numbers.append(int(number))
     else:
         number = (number * 3) + 1
-        numbers.append(int(number))
+    numbers.append(int(number))
 print(numbers)
