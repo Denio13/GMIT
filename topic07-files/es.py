@@ -20,4 +20,4 @@ with open(filename, 'rt') as f: #open the file and read
                     total += 1
 
 print(f'The file contains a total of {total} letters "{selected_letter}"')
-print(total)
+print(total) #print only number
