@@ -1,8 +1,6 @@
 # pands-problem-sheet
 
 
-## HIGHER DIPLOMA IN SCIENCE IN COMPUTING (DATA ANALYTICS)
-
 
 # My Setup
 
@@ -50,3 +48,13 @@ python --version
 
 
 
+
+# Programming and Scripting
+
+*** Lecturer Andrew Beatty (andrew.beatty@gmit.ie) ***
+
+### Week 02
+
+- In the week 02 we explore what a program is and write a simple program.
+
+- [Weekly Tasks 02](week02.md)
