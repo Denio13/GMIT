@@ -53,6 +53,7 @@ python --version
 
 *** Lecturer Andrew Beatty (andrew.beatty@gmit.ie) ***
 
+
 ### Week 02
 
 - Week 02 has a discussion what a program is and write a simple program.
@@ -102,3 +103,9 @@ python --version
 - [Weekly Tasks 08](Topic08-plotting.md)
 
 
+### Useful sources: 
+- https://www.w3schools.com/
+- https://realpython.com/
+- https://numpy.org/
+- https://matplotlib.org/
+- https://pandas.pydata.org/
