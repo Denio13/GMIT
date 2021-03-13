@@ -55,6 +55,50 @@ python --version
 
 ### Week 02
 
-- In the week 02 we explore what a program is and write a simple program.
+- Week 02 has a discussion what a program is and write a simple program.
 
 - [Weekly Tasks 02](week02.md)
+
+
+### Week 03
+
+- Week 03 has a discussion of what variables are in Python.
+
+- [Weekly Tasks 03](week03.md)
+
+
+### Week 04
+
+- Week 04 has a discussion controlling the flow of a program in Python, by making some statements conditional and repeating others.
+
+- [Weekly Tasks 04](week04-flow.md)
+
+
+### Week 05
+
+- Week 05 has an of training what is a list, tuple, and dictionary.
+
+- [Weekly Tasks 05](week05_datastructures.md)
+
+
+### Week 06
+
+- Week 06 is dedicated to the creation of the function and the module.
+
+- [Weekly Tasks 06](week06-functions.md)
+
+
+### Week 07
+
+- Week 07 has a discussion opening and reading to and from files.
+
+- [Weekly Tasks 07](week05_datastructures.md)
+
+
+### Week 08
+
+- Week 08 exploring plotting techniques with the matplotlib module.
+
+- [Weekly Tasks 08](Topic08-plotting.md)
+
+
