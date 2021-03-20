@@ -15,7 +15,7 @@ def g(x):  #function g(x)=x2
 def h(x):  #function h(x)=x3
     return x ** 3
 
-x = np.array(range(0, 4))   #range [0, 4]
+x = np.array(range(0, 4))   #range [0, 4] range 0 to 3, 4 not included
 
 plt.figure()
 #The plot() function is used to draw points in a diagram and the function takes parameters for specifying points in the diagram.
@@ -27,8 +27,9 @@ plt.legend() # A legend() is a function describing the elements of the graph.
 font1 = {'family':'serif','color':'blue','size':20} #style chart title
 plt.title("A plot of the functions", fontdict = font1) #title of graph
 
-plt.xlabel("X")
-plt.ylabel("X")
+font2 = {'family':'serif','color':'green','size':10} #style chart xlabel and ylabel
+plt.xlabel("Input(x)", fontdict = font2)
+plt.ylabel("Output(x)", fontdict = font2)
 
 plt.show() #display all open figures.
 plt.savefig('chart.png')
