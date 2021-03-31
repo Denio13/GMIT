@@ -54,58 +54,99 @@ python --version
 *** Lecturer Andrew Beatty (andrew.beatty@gmit.ie) ***
 
 
-### Week 02
+### Week02  Topic 2: Statements
 
-- Week 02 has a discussion what a program is and write a simple program.
+- Week02 has a discussion what a program is and write a simple program.
 
 - [Weekly Tasks 02](week02.md)
 
 
-### Week 03
+### Week03  Topic 3: Variables
 
-- Week 03 has a discussion of what variables are in Python.
+- Week03 has a discussion of what variables are in Python.
 
 - [Weekly Tasks 03](week03.md)
 
 
-### Week 04
+### Week04  Topic 4: Controlling the flow
 
-- Week 04 has a discussion controlling the flow of a program in Python, by making some statements conditional and repeating others.
+- Week04 has a discussion controlling the flow of a program in Python, by making some statements conditional and repeating others.
 
 - [Weekly Tasks 04](week04-flow.md)
 
 
-### Week 05
+### Week05  Topic 5: Data
 
-- Week 05 has an of training what is a list, tuple, and dictionary.
+- Week05 has an of training what is a list, tuple, and dictionary.
 
 - [Weekly Tasks 05](week05_datastructures.md)
 
 
-### Week 06
+### Week06   Topic 6: Functions
 
-- Week 06 is dedicated to the creation of the function and the module.
+- Week06 is dedicated to the creation of the function and the module.
 
 - [Weekly Tasks 06](week06-functions.md)
 
 
-### Week 07
+### Week07   Topic 7: Files
 
-- Week 07 has a discussion opening and reading to and from files.
+- Week07 has a discussion opening and reading to and from files.
 
 - [Weekly Tasks 07](week05_datastructures.md)
 
 
-### Week 08
+### Week08   Topic 8: Looking ahead
 
-- Week 08 exploring plotting techniques with the matplotlib module.
+- Week08 exploring plotting techniques with the matplotlib module.
 
 - [Weekly Tasks 08](Topic08-plotting.md)
 
 
-### Useful sources: 
+### Week09   Topic 9: Errors
+
+- Week09 includes a discussion on:  
+errors / exceptions (when things go wrong), 
+testing your code (making sure your code does what you expect),
+logging: (a more advanced print).
+
+
+
+### Week10   Topic 10: Objects
+
+- Week10 has a discussion on :
+Organizing your code, 
+Object classes and object instances,
+Function programming Vs Object-oriented Programming
+
+
+### Week11   Extra Topic 11 - Pandas
+
+- Week11 has a discussion of what Pandas is: 
+What is Pandas (dataframe and series)lReading and writing data from/to files
+Tidying up and manipulating data
+Introduction to Data Analysis with Pandas
+
+
+
+
+### Resources: 
+- https://en.wikipedia.org/wiki/Python_(programming_language)
 - https://www.w3schools.com/
 - https://realpython.com/
 - https://numpy.org/
 - https://matplotlib.org/
 - https://pandas.pydata.org/
+- https://stackoverflow.com/questions
+- https://www.programiz.com/python-programming/operators
+- https://docs.python.org/3/tutorial/introduction.html
+- https://www.geeksforgeeks.org/python-operators/
+- https://developers.google.com/edu/python/lists
+- https://learnonline.gmit.ie/pluginfile.php/268696/mod_label/intro/Unix%20and%20Linux%20Command%20Reference%20-%20FOSSwire.pdf?time=1610966463814
+- https://learnonline.gmit.ie/pluginfile.php/268696/mod_label/intro/git-cheat-sheet-education.pdf
+- https://programminghistorian.org/en/lessons/retired/getting-started-with-github-desktop
+- https://jakevdp.github.io/WhirlwindTourOfPython/
+- https://www.anaconda.com/
+- https://code.visualstudio.com/
+- http://files.urpdfs.com/automate-the-boring-stuff-with-python.pdf
+

@@ -1,23 +1,25 @@
 # The program that reads a text file and prints the number of selected letters it contains.
-#Author: Denis Sarf
+# Author: Denis Sarf
 
 
+# import sys — System-specific parameters and functions
+import sys
 
-filename = input("Enter file name: ")  #input of the file with which the program will work
+#argv[1] represents the first command-line argument
+filename = sys.argv[1]
 
-#selected_letter = input("Enter letter to be searched:")  #additional function: entering a letter to be counted
-
-selected_letter = 'e'  #variable defining the letter "e"
+selected_letter = 'e'  # variable defining the letter "e"
 
 total = 0
 
 with open(filename, 'rt') as f: #open the file and read
-    for line in f:    #the loop splits from text to words 
+    for line in f:    # the loop splits from text to words 
         words = line.split() 
-        for i in words:
-            for letter in i: #the loop checks if the letter is a selected letter or letter "e"
-                if (letter == selected_letter):
-                    total += 1
+        for word in words:
+            # checking if selected_letter in word
+            if selected_letter in word:
+                total += 1
 
 print(f'The file contains a total of {total} letters "{selected_letter}"')
-print(total) #print only number
+print(total) # print only number
+

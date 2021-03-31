@@ -14,15 +14,17 @@ def sqrt(num):#Newton's method
         estimate = (estimate + num / estimate) / 2
         difference = abs(num - estimate ** 2)
         if difference <= tolerance:
-            break
-   return estimate
+            return estimate
 
 
 def main():
+
    while True:
-       num = input("Enter a positive number or enter/return to quit: ") #input a number
-       if num == "": 
-           break
+
+       num = input("Enter a positive floating-point number: ") #input a number
+
+       if num == "" or float(num) < 0: # checking if the input is empty or a negative number was entered
+           num = input("Something is wrong!!! Enter a positive floating-point number: ") #input a number
        num = float(num)
        result_1 = round(math.sqrt(num), 1)
        print("Newton's method estimate is", result_1) #output Newton's method

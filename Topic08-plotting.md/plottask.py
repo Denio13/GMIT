@@ -15,7 +15,7 @@ def g(x):  #function g(x)=x2
 def h(x):  #function h(x)=x3
     return x ** 3
 
-x = np.array(range(0, 4))   #range [0, 4] range 0 to 3, 4 not included
+x = np.array(range(0, 5))   #range [0, 4] range 0 to 3, 4 not included
 
 plt.figure()
 #The plot() function is used to draw points in a diagram and the function takes parameters for specifying points in the diagram.
