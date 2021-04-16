@@ -130,7 +130,7 @@ Introduction to Data Analysis with Pandas
 
 
 
-### Resources: 
+### References: 
 - https://en.wikipedia.org/wiki/Python_(programming_language)
 - https://www.w3schools.com/
 - https://realpython.com/
@@ -149,5 +149,10 @@ Introduction to Data Analysis with Pandas
 - https://www.anaconda.com/
 - https://code.visualstudio.com/
 - http://files.urpdfs.com/automate-the-boring-stuff-with-python.pdf
-- Printf format - https://docs.python.org/3/tutorial/inputoutput.html#fancier-output-formatting 
-- 
+- https://docs.python.org/3/tutorial/inputoutput.html#fancier-output-formatting 
+- https://stackoverflow.com/questions/38666527/what-is-the-necessity-of-plt-figure-in-matplotlib
+- https://www.guru99.com/reading-and-writing-files-in-python.html
+- http://hplgit.github.io/Programming-for-Computations/pub/p4c/._p4c-bootstrap-Python027.html
+- https://www.geeksforgeeks.org/find-root-of-a-number-using-newtons-method/
+- https://www.freecodecamp.org/news/learning-python-from-zero-to-hero-120ea540b567/
+
