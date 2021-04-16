@@ -8,18 +8,27 @@ import sys
 #argv[1] represents the first command-line argument
 filename = sys.argv[1]
 
-selected_letter = 'e'  # variable defining the letter "e"
+#variable defining the letter "e"
+selected_letter = 'e'  
 
+#creating a variable with 0 value for collecting the amount of all "e" letters 
 total = 0
 
-with open(filename, 'rt') as f: #open the file and read
-    for line in f:    # the loop splits from text to words 
+#the first step is opening the .txt file with read "r" mode
+# the first 'for' loop splits the text to line of words,
+# then the second 'for' loop runs along the lines of words 
+# and splits them into word and at the same time if the statement 
+# checks if the "e" letter is inside of the word
+# if the letter "e" was found then the "total" variable increases by one
+with open(filename, 'rt') as f:
+    for line in f:   
         words = line.split() 
         for word in words:
-            # checking if selected_letter in word
             if selected_letter in word:
                 total += 1
 
+# print of the all counted letters "e"
 print(f'The file contains a total of {total} letters "{selected_letter}"')
-print(total) # print only number
+# print only number
+print(total) 
 

@@ -2,15 +2,20 @@
 
 #Author: Denis Sarf
 
-from datetime import datetime
-#import date and time modules 
 
+#import datetime module that supplies classes for manipulating dates and times.
+from datetime import datetime 
+
+#checking the current day and assigning the variable "today" to it
 today = datetime.today().strftime('%A')
+
+#creating a variable "weekend" with values "Saturday", "Sunday"
 weekends = ("Saturday", "Sunday")
 
-if today in weekends: #check "today" is in the "weekend"
+#'if' statement checks if "today"(current day) is in the "weekend" values, 
+# then print "It is the weekend, yay!" and if not then print 
+# "Yes, unfortunately, today is a weekday."
+if today in weekends:
     print("It is the weekend, yay!")
 else:
-    print("Yes, unfortunately today is a weekday.")
-
-
+    print("Yes, unfortunately, today is a weekday.")

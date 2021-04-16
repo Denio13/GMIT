@@ -5,32 +5,41 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-
-def f(x): # function f(x)=x
+#running function f(x)=x
+def f(x):
     return x
 
-def g(x):  #function g(x)=x2
+#running function g(x)=x2
+def g(x):
     return x ** 2
 
-def h(x):  #function h(x)=x3
+#running function h(x)=x3
+def h(x):
     return x ** 3
 
-x = np.array(range(0, 5))   #range [0, 4] range 0 to 3, 4 not included
+#range [0, 4] range 0 to 3, 4 not included
+x = np.array(range(0, 5))
 
+# 'plt.figure()' is to create a figure object.
 plt.figure()
 #The plot() function is used to draw points in a diagram and the function takes parameters for specifying points in the diagram.
 plt.plot(x, f(x),  label = "f(x)=x")
 plt.plot(x, g(x), 'o:r', label = "g(x)=x2")
 plt.plot(x, h(x), '--', label = "h(x)=x3")
-plt.legend() # A legend() is a function describing the elements of the graph.
+# A legend() is a function describing the elements of the graph.
+plt.legend() 
 
-font1 = {'family':'serif','color':'blue','size':20} #style chart title
-plt.title("A plot of the functions", fontdict = font1) #title of graph
+#giving a style to a chart title 
+font1 = {'family':'serif','color':'blue','size':20} 
+#giving a title to a graph
+plt.title("A plot of the functions", fontdict = font1)
 
-font2 = {'family':'serif','color':'green','size':10} #style chart xlabel and ylabel
+#giving a style to chart's xlabel and ylabel
+font2 = {'family':'serif','color':'green','size':10} 
 plt.xlabel("Input(x)", fontdict = font2)
 plt.ylabel("Output(x)", fontdict = font2)
 
-plt.show() #display all open figures.
+#displaying and saving as a .png format all open figures
+plt.show()
 plt.savefig('chart.png')
     
