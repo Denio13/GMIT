@@ -149,4 +149,5 @@ Introduction to Data Analysis with Pandas
 - https://www.anaconda.com/
 - https://code.visualstudio.com/
 - http://files.urpdfs.com/automate-the-boring-stuff-with-python.pdf
-
+- Printf format - https://docs.python.org/3/tutorial/inputoutput.html#fancier-output-formatting 
+- 
